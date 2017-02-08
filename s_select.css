@@ -1,0 +1,27 @@
+.s_wrap {
+	position: relative;
+	overflow: hidden;
+	height: 40px;
+}
+
+.s_wrap--active {
+	overflow: visible;
+}
+
+.s_options {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: #fff;
+}
+
+.s_wrap--active .s_options {
+	z-index: 2;
+}
+
+.s_option {
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+}
